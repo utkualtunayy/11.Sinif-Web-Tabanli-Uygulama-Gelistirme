@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+</head>
+<body style="background-color: rgb(212, 212, 191); background-image:url(Görsel/kelebek.png);">
+    <h1>Merhaba Sayfamıza Hoşgeldiniz</h1>
+
+    <form action="" method="get">
+        <fieldset>
+            <legend>Üyelik İşlemleri</legend>
+        
+
+    <label for="Ad">Adınız:</label>
+    <input type="text" name="Ad" id="Ad"/>
+
+    <br> <br>
+
+    <label for="Soyadınız">Soyadınız:</label>
+    <input type="text" name="Soyadınız" id="Soyadınız"/>
+
+    <br><br>
+
+    <label for="şifre">Şifre:</label>
+    <input type="password"name="şifre" id="şifre">
+
+    <br><br>
+
+    <label for="hobi">Hobilerim:</label> <!--böylede olur--> 
+    
+    <br>
+    <input type="checkbox" name="hobi" id="hobi">Kitap Okumak <br>
+    <input type="checkbox" name="hobi" id="hobi">Oyun Oynamak <br>
+    <input type="checkbox" name="hobi" id="hobi">Ödev Yapmak <br>
+    <input type="checkbox" name="hobi" id="hobi">Dışarı Çıkma <br>
+
+    <br>
+
+    Cinsiyetiniz: <!--böylede-->
+    <br>
+    <input type="radio" name="Cinsiyet" id="Erkek">Erkek <br> <!--name kullanmazsak ikiside seçilebilir olur-->
+    <input type="radio" name="Cinsiyet" id="Kadın">Kadın <br>
+    <br>
+
+    <input type="submit" value="Gönder"> <input type="submit" value="Sil">
+
+    <br><br>
+
+    Doğum Tarihi: <br>
+    <input type="date">
+
+    <br>
+    <br>
+
+    
+    Yaşadığımız il:
+    <br>
+    <select name="iller" size="1">
+        <optgroup label="istanbul">
+            <option value="1">Esenyurt</option>
+            <option value="2">Avcılar</option>
+            <option value="3">Bahçeşehir</option>
+        </optgroup>
+         <option value="1">Ardahan</option>
+         <option value="1">Malatya</option>
+         <option value="1">Bursa</option>
+    </select>
+    
+    <br><br>
+
+    Dosya: <br>
+    <input type="file" name=" Dosya" id="Dosya">
+    </form>  
+    <br><br>
+    Adresinizi Giriniz: <br>
+    <textarea rows="3" cols="20" tabindex="2">
+
+    </textarea>
+    </fieldset>
+</body>
+</html>

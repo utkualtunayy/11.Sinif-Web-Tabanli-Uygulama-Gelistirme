@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bir {
+            background-color: lightblue;
+            height: 150px;
+            width: 100px;
+            border: 2px solid black;
+            display: inline-block;
+        }
+
+        .iki {
+            background-color: lightblue;
+            height: 150px;
+            width: 200px;
+            border: 2px solid black;
+            display: inline-block;
+            position: relative;
+            z-index: 2;
+        }
+
+        .uc {
+            background-color: rgb(156, 209, 226);
+            height: 70px;
+            width: 120px;
+            display: inline-block;
+            border: 2px solid black;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bir">Kutu1</div>
+    <div class="iki">Kutu2
+        <div class="uc">Kutu3</div>
+    </div>
+</body>
+
+</html>

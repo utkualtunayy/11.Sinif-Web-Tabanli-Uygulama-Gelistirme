@@ -1,0 +1,85 @@
+.üst {
+    width: 100%;
+    border: 2px solid;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 20%;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+.sol {
+    width: 8%;
+    height: auto;
+    float: left;
+    justify-content: center;
+    background-color: rgb(247, 247, 247);
+}
+
+.sol a {
+    transition: 0.3s;
+}
+
+.sol a :hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff;
+    transform: scale(1.05);
+}
+
+.sağ {
+    height: 500px;
+    width: 90%;
+    float: right;
+    background-color: rgb(247, 247, 247);
+
+}
+
+
+.orta {
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.logo {
+    width: 180px;
+    height: auto;
+    text-align: start;
+    display: flex;
+
+
+}
+
+.üstyazı {
+    font-size: 25px;
+    margin-left: 25%;
+
+}
+
+.Okul {
+    margin-bottom: 50px;
+    margin-top: 49px;
+    width: 650px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.alt {
+    border: 2px solid black;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    clear: both;
+    height: 200px;
+
+
+}

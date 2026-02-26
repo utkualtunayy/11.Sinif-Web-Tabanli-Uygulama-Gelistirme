@@ -1,0 +1,12 @@
+div{
+    background-color: yellow;
+    color: black;
+    margin: 6px;
+    width: 16px;
+    border: solid gray;
+    text-align: center;
+    
+}
+body{
+    background-color: skyblue;
+}
