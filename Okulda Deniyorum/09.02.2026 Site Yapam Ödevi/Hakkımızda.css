@@ -1,0 +1,135 @@
+.üst {
+    width: 100%;
+    border: 2px solid;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 20%;
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    align-items: center;
+
+}
+
+.Hakkımızda {
+    background-color: rgb(247, 247, 247);
+}
+
+.üstyazı {
+    font-size: 25px;
+    margin-left: 25%;
+    margin-bottom: 20px;
+
+
+}
+
+.hakyazı {
+    max-width: 900px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(83, 81, 81);
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    border: 2px gray solid;
+    font-size: 16px;
+    float: left;
+}
+
+.tarihyazı {
+    max-width: 900px;
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    border: 2px gray solid;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(83, 81, 81);
+    font-size: 16px;
+    float: right;
+    margin-top: 20px;
+}
+
+.tarihçe {
+    max-width: 900px;
+    padding: 40px;
+    background: white;
+    border-radius: 16px;
+    border: 2px gray solid;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(83, 81, 81);
+    font-size: 16px;
+    float: left;
+    margin-top: 20px;
+}
+
+.tarihçe:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+
+.hakyazı:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+.tarihyazı:hover {
+    cursor: pointer;
+    background-color: lightgrey;
+}
+
+.başlıkbir {
+
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.başlıkiki {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.başlıküç {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.resim {
+    border-radius: 12px;
+    border: 2px solid black;
+    height: 500px;
+}
+
+.hakresim {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.resimbir {
+    float: left;
+    height: 790px;
+    border-radius: 16px;
+    border: 2px solid black;
+    margin-left: 50px;
+}
+
+.resimiki {
+    float: right;
+    height: 700px;
+    border-radius: 16px;
+    border: 2px solid black;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+.resimuc {
+    float: left;
+    height: 1000px;
+    width: 820px;
+    border-radius: 16px;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 50px;
+}

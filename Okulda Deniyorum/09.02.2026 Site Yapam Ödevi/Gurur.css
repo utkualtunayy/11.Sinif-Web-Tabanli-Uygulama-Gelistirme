@@ -1,0 +1,19 @@
+ .üst {
+     width: 100%;
+     border: 2px solid;
+     height: 20%;
+     background-color: rgb(247, 247, 247);
+     display: flex;
+     align-items: center;
+     border-radius: 12px;
+ }
+
+ .üstyazı {
+     font-size: 25px;
+     margin-left: 25%;
+
+ }
+
+ body {
+     background-color: rgb(247, 247, 247);
+ }
