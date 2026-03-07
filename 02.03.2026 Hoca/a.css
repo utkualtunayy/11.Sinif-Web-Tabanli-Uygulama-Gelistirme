@@ -1,0 +1,17 @@
+body{
+    background-color: cadetblue;
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+#bir
+{
+    color: red;
+}
+button
+{
+    width: 200px;
+    color:blue;
+    background-color: yellow;
+    height: 100px;
+}

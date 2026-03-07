@@ -1,0 +1,30 @@
+.bir {
+    background-color: rgb(204, 247, 211);
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+
+}
+
+button {
+
+
+    display: inline-block;
+    margin-bottom: 20px;
+
+
+}
+
+
+
+.iki {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100vh;
+}
