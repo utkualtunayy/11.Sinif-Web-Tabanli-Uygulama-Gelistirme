@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript form</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>Ad ve Soyadınız:</td>
+            <td><input type="text" id="adi"></td>
+        </tr>
+        <tr>
+            <td>E-mail:</td>
+            <td><input type="email" id="mail"></td>
+        </tr>
+        <tr>
+            <td>En sevdiğiniz meyve nedir:</td>
+            <td>
+                <select id="meyve">
+                    <option value=""></option>
+                    <option value="muz">Muz 🍌</option>
+                    <option value="cilek">Çilek 🍓</option>
+                    <option value="kavun">Kavun 🍈</option>
+                    <option value="mandaline">Mandaline 🍊</option>
+                    <option value="portakal">Portakal 🍊</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> Cinsiyetiniz:</td>
+            <td>
+                <input type="radio" name="cins" value="kadin">kadın
+                <input type="radio" name="cins" value="erkek">erkek
+            </td>
+        </tr>
+        <tr>
+            <td>Hiç kivi yediniz mi?</td>
+            <td>
+                <input type="checkbox" id="cevap" value="evet">evet
+                <input type="checkbox" id="cevap2" value="hayır">hayır
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" onclick="yaz()"></td>
+        </tr>
+    </table>
+    <script src="iki.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript form</title>
+</head>
+
+<body>
+
+    <fieldset>
+        <legend> Medeni hali</legend>
+        <input type="radio" name="medeni" value="evli">evli <br>
+        <input type="radio" name="medeni" value="bekar">bekar <br>
+    </fieldset>
+
+    <fieldset>
+        <legend> Çocuk sayısı</legend>
+        <input type="radio" name="cocuk" value=0>0 <br>
+        <input type="radio" name="cocuk" value=1>1 <br>
+        <input type="radio" name="cocuk" value=2>2 <br>
+        <input type="radio" name="cocuk" value=3>3 <br>
+    </fieldset>
+
+    <fieldset>
+        <legend> Bildiği diller</legend>
+        <input type="checkbox" name="dil" value="ingilizce">ingilizce <br>
+        <input type="checkbox" name="dil" value="almanca">almanca <br>
+        <input type="checkbox" name="dil" value="fransızca">fransızca <br>
+        <input type="checkbox" name="dil" value="italyanca">italyanca <br>
+    </fieldset>
+
+    Maaş: <input type="text" id="maas">
+
+    <input type="button" id="hesap" onclick="hesapla()" value="hesapla"> <br>
+
+    Yeni maaş: <span id="ymaas"></span>
+
+    <script src="uc.js"></script>
+
+</body>
+
+</html>
